@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instructor Panel – Hacking Ethically</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- NAVBAR -->
+  <nav class="bg-white shadow-md py-4">
+    <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+
+      <div class="flex items-center gap-3">
+        <svg width="44" height="44" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="rounded-xl shadow-sm">
+          <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#4F46E5;" />
+              <stop offset="100%" style="stop-color:#0EA5E9;" />
+            </linearGradient>
+          </defs>
+          <rect width="200" height="200" rx="28" fill="url(#grad1)" />
+          <path d="M60 140 L60 60 L100 60 Q140 60 140 100 Q140 140 100 140 Z" fill="white" />
+          <circle cx="100" cy="100" r="18" fill="#4F46E5" />
+        </svg>
+        <span class="text-2xl font-bold text-indigo-700">Hacking Ethically</span>
+      </div>
+
+      <div class="hidden md:flex gap-6 text-sm font-medium">
+        <a href="dashboard.html" class="hover:text-indigo-600">Dashboard</a>
+        <a href="courses.html" class="hover:text-indigo-600">Courses</a>
+        <a href="about.html" class="hover:text-indigo-600">About</a>
+        <a href="contact.html" class="hover:text-indigo-600">Contact</a>
+      </div>
+
+      <a href="login.html" class="px-4 py-2 bg-red-600 text-white rounded-lg shadow hover:bg-red-700 text-sm">
+        Logout
+      </a>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <section class="max-w-7xl mx-auto px-6 mt-12">
+    <h1 class="text-4xl font-bold text-gray-900">Instructor Panel</h1>
+    <p class="text-gray-600 mt-2">
+      Manage course materials, quizzes, announcements, and students.
+    </p>
+  </section>
+
+  <!-- GRID -->
+  <section class="max-w-7xl mx-auto px-6 mt-12 grid md:grid-cols-3 gap-8 mb-24">
+
+    <!-- Manage Courses -->
+    <div class="bg-white p-8 rounded-2xl shadow">
+      <h2 class="text-xl font-semibold mb-3">Manage Courses</h2>
+      <p class="text-gray-600 text-sm mb-4">Create, modify, or update course modules.</p>
+      <a href="#" class="text-indigo-600 font-semibold hover:underline">Open Course Manager</a>
+    </div>
+
+    <!-- Manage Quizzes -->
+    <div class="bg-white p-8 rounded-2xl shadow">
+      <h2 class="text-xl font-semibold mb-3">Quiz Builder</h2>
+      <p class="text-gray-600 text-sm mb-4">Create assessments and manage learning progress.</p>
+      <a href="#" class="text-indigo-600 font-semibold hover:underline">Create Quiz</a>
+    </div>
+
+    <!-- Student Overview -->
+    <div class="bg-white p-8 rounded-2xl shadow">
+      <h2 class="text-xl font-semibold mb-3">Students</h2>
+      <p class="text-gray-600 text-sm mb-4">View enrolled students and their progress.</p>
+      <a href="#" class="text-indigo-600 font-semibold hover:underline">View Students</a>
+    </div>
+
+    <!-- Announcements -->
+    <div class="bg-white p-8 rounded-2xl shadow">
+      <h2 class="text-xl font-semibold mb-3">Announcements</h2>
+      <p class="text-gray-600 text-sm mb-4">Post updates or alerts to all students.</p>
+      <a href="#" class="text-indigo-600 font-semibold hover:underline">Post Announcement</a>
+    </div>
+
+    <!-- Messages -->
+    <div class="bg-white p-8 rounded-2xl shadow">
+      <h2 class="text-xl font-semibold mb-3">Messages</h2>
+      <p class="text-gray-600 text-sm mb-4">Respond to student questions and support requests.</p>
+      <a href="#" class="text-indigo-600 font-semibold hover:underline">Open Inbox</a>
+    </div>
+
+    <!-- Settings -->
+    <div class="bg-white p-8 rounded-2xl shadow">
+      <h2 class="text-xl font-semibold mb-3">Settings</h2>
+      <p class="text-gray-600 text-sm mb-4">Update instructor account preferences.</p>
+      <a href="#" class="text-indigo-600 font-semibold hover:underline">Manage Settings</a>
+    </div>
+
+  </section>
+
+  <footer class="text-center py-6 text-gray-500">
+    © Hacking Ethically – Professional Cybersecurity Education
+  </footer>
+
+</body>
+</html>
